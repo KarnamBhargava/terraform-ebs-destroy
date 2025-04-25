@@ -46,4 +46,3 @@ jobs:
           terraform destroy -auto-approve \
             -var region=${{ github.event.inputs.region }} \
             -var volumeId=${{ github.event.inputs.volumeId }}
-
